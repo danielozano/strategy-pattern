@@ -3,7 +3,7 @@
 
 namespace Strategy;
 
-class BanktransferPayment extends PaymentMethodInterface
+class BanktransferPayment implements PaymentMethodInterface
 {
 	public function pay($ammount, $tax = '7')
 	{
